@@ -33,16 +33,16 @@ window.addEventListener("load", () => {
         route = match;
         loadPage("logout");
       })
-      .on("/tree", (match) => {
+      .on("/userlist", (match) => {
         //console.log(match);
         //  render("<my-counter></my-counter>");
         route = match;
-        loadPage("tree");
+        loadPage("userlistpage");
       })
-      .on("/pie", (match) => {
+      .on("/slotpage", (match) => {
         //console.log(match);
         route = match;
-        loadPage('pie');
+        loadPage('slotpage');
       })
       .on("/user", (match) => {
         //console.log(match);
